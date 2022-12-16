@@ -8,15 +8,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/MetalBlockchain/metalgo/utils/perms"
 	"github.com/golang/mock/gomock"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/apm/checksum"
-	"github.com/ava-labs/apm/state"
-	"github.com/ava-labs/apm/types"
+	"github.com/MetalBlockchain/apm/checksum"
+	"github.com/MetalBlockchain/apm/state"
+	"github.com/MetalBlockchain/apm/types"
 )
 
 func TestInstallExecute(t *testing.T) {

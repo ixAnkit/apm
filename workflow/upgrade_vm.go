@@ -10,9 +10,9 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/ava-labs/apm/git"
-	"github.com/ava-labs/apm/state"
-	"github.com/ava-labs/apm/util"
+	"github.com/MetalBlockchain/apm/git"
+	"github.com/MetalBlockchain/apm/state"
+	"github.com/MetalBlockchain/apm/util"
 )
 
 var ErrAlreadyUpdated = errors.New("already up-to-date")

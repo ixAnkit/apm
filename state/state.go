@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/MetalBlockchain/metalgo/utils/perms"
 	"gopkg.in/yaml.v3"
 )
 
