@@ -9,11 +9,11 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/MetalBlockchain/metalgo/database"
 	"github.com/spf13/afero"
 
-	"github.com/ava-labs/apm/storage"
-	"github.com/ava-labs/apm/types"
+	"github.com/MetalBlockchain/apm/storage"
+	"github.com/MetalBlockchain/apm/types"
 )
 
 var _ Workflow = &Uninstall{}

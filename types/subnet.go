@@ -3,7 +3,7 @@
 
 package types
 
-// import "github.com/ava-labs/avalanchego/subnets"
+// import "github.com/MetalBlockchain/metalgo/subnets"
 //
 var _ Definition = &Subnet{}
 

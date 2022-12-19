@@ -5,8 +5,8 @@ package constant
 
 const (
 	AppName                = "apm"
-	CoreAlias              = "ava-labs/avalanche-plugins-core"
-	CoreURL                = "https://github.com/ava-labs/avalanche-plugins-core.git"
+	CoreAlias              = "MetalBlockchain/metal-plugins-core"
+	CoreURL                = "https://github.com/MetalBlockchain/metal-plugins-core.git"
 	CoreBranch             = "master"
 	QualifiedNameDelimiter = ":"
 	AliasDelimiter         = "/"

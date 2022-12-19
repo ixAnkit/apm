@@ -1,12 +1,12 @@
-# Avalanche Plugin Manager (apm)
+# Metal Plugin Manager (apm)
 
 **Note: This code is currently in Alpha. Proceed at your own risk.**
 
 `apm` is a command-line tool to manage virtual machines binaries for
-[avalanchego](https://github.com/ava-labs/avalanchego).
+[metalgo](https://github.com/ava-labs/metalgo).
 
 `apm` allows users to build their own custom repositories to provide virtual machine and subnet definitions outside of
-the [avalanche-plugins-core](https://github.com/ava-labs/avalanche-plugins-core) repository. `avalanche-plugins-core`
+the [metal-plugins-core](https://github.com/ava-labs/metal-plugins-core) repository. `metal-plugins-core`
 is a community-sourced set of plugins and subnets that ships with the `apm`, but users have the option of adding their own using
 the `add-repository` command.
 

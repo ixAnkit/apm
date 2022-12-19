@@ -3,7 +3,7 @@
 
 package types
 
-import "github.com/ava-labs/avalanchego/version"
+import "github.com/MetalBlockchain/metalgo/version"
 
 var _ Definition = &VM{}
 

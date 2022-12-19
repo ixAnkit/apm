@@ -4,11 +4,11 @@
 package storage
 
 import (
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
+	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/MetalBlockchain/metalgo/database/prefixdb"
 	"gopkg.in/yaml.v3"
 
-	"github.com/ava-labs/apm/types"
+	"github.com/MetalBlockchain/apm/types"
 )
 
 var (

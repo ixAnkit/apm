@@ -7,16 +7,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/MetalBlockchain/metalgo/utils/perms"
+	"github.com/MetalBlockchain/metalgo/utils/wrappers"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/golang/mock/gomock"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/apm/storage"
-	mockdb "github.com/ava-labs/apm/storage/mocks"
-	"github.com/ava-labs/apm/types"
+	"github.com/MetalBlockchain/apm/storage"
+	mockdb "github.com/MetalBlockchain/apm/storage/mocks"
+	"github.com/MetalBlockchain/apm/types"
 )
 
 func TestUpdateRepositoryExecute(t *testing.T) {
@@ -57,7 +57,7 @@ func TestUpdateRepositoryExecute(t *testing.T) {
     - "patrickogrady@avalabs.org"
   installScript: "scripts/build.sh"
   binaryPath: "build/sqja3uK17MJxfC7AN8nGadBw9JK5BcrsNwNynsqP5Gih8M5Bm"
-  url: "https://github.com/ava-labs/spacesvm/archive/refs/tags/v0.0.3.tar.gz"
+  url: "https://github.com/MetalBlockchain/spacesvm/archive/refs/tags/v0.0.3.tar.gz"
   sha256: "1ac250f6c40472f22eaf0616fc8c886078a4eaa9b2b85fbb4fb7783a1db6af3f"
   version:
     major: 0
@@ -77,7 +77,7 @@ func TestUpdateRepositoryExecute(t *testing.T) {
   vms:
     - "spacesvm"
   config:
-    # This the default subnet config as of avalanchego v1.7.10
+    # This the default subnet config as of metalgo v1.7.10
     # TODO remove this
     gossipAcceptedFrontierValidatorSize: 0
     gossipAcceptedFrontierNonValidatorSize: 0

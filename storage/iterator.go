@@ -4,7 +4,7 @@
 package storage
 
 import (
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/MetalBlockchain/metalgo/database"
 	"gopkg.in/yaml.v3"
 )
 

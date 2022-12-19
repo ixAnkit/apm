@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/MetalBlockchain/metalgo/database"
 	"github.com/spf13/afero"
 
-	"github.com/ava-labs/apm/storage"
-	"github.com/ava-labs/apm/types"
-	"github.com/ava-labs/apm/util"
+	"github.com/MetalBlockchain/apm/storage"
+	"github.com/MetalBlockchain/apm/types"
+	"github.com/MetalBlockchain/apm/util"
 )
 
 var ErrAlreadyUpdated = errors.New("already up-to-date")

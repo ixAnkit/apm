@@ -6,7 +6,7 @@ package admin
 import (
 	"context"
 
-	adminapi "github.com/ava-labs/avalanchego/api/admin"
+	adminapi "github.com/MetalBlockchain/metalgo/api/admin"
 )
 
 var _ Client = &client{}

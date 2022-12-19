@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/ava-labs/apm/git"
-	"github.com/ava-labs/apm/storage"
-	mockdb "github.com/ava-labs/apm/storage/mocks"
+	"github.com/MetalBlockchain/apm/git"
+	"github.com/MetalBlockchain/apm/storage"
+	mockdb "github.com/MetalBlockchain/apm/storage/mocks"
 )
 
 func TestUpdateExecute(t *testing.T) {

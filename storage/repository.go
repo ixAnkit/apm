@@ -4,7 +4,7 @@
 package storage
 
 import (
-	"github.com/ava-labs/apm/types"
+	"github.com/MetalBlockchain/apm/types"
 )
 
 var repositoryPrefix = []byte("repository")
