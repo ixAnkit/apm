@@ -1,9 +1,9 @@
-module github.com/MetalBlockchain/apm
+module github.com/Cryft/apm
 
 go 1.18
 
 require (
-	github.com/MetalBlockchain/metalgo v1.7.17-rc.2
+	github.com/cryft-labs/cryftgo v1.0.0-rc
 	github.com/cavaliergopher/grab/v3 v3.0.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/golang/mock v1.6.0

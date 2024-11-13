@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metalgo/utils/perms"
+	"github.com/cryft-labs/cryftgo/utils/perms"
 	"gopkg.in/yaml.v3"
 )
 

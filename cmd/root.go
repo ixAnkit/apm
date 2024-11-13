@@ -8,16 +8,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metalgo/utils/wrappers"
+	"github.com/cryft-labs/cryftgo/utils/wrappers"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v3"
 
-	"github.com/MetalBlockchain/apm/apm"
-	"github.com/MetalBlockchain/apm/config"
-	"github.com/MetalBlockchain/apm/constant"
+	"github.com/cryft/apm/apm"
+	"github.com/cryft/apm/config"
+	"github.com/cryft/apm/constant"
 )
 
 var (
