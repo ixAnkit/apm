@@ -18,7 +18,7 @@ the `add-repository` command.
 To download a binary for the latest release, run:
 
 ```
-curl -sSfL https://raw.githubusercontent.com/MetalBlockchain/apm/master/scripts/install.sh | sh -s
+curl -sSfL https://raw.githubusercontent.com/ixAnkit/apm/master/scripts/install.sh | sh -s
 ```
 
 The binary will be installed inside the `./bin` directory (relative to where the install command was run).

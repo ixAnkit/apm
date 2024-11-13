@@ -7,7 +7,7 @@ set -e
 usage() {
   this=$1
   cat <<EOF
-$this: download go binaries for MetalBlockchain/apm
+$this: download go binaries for ixAnkit/apm
 
 Usage: $this [-b] bindir [-d] [tag]
   -b sets bindir or installation directory, Defaults to ./bin
@@ -333,7 +333,7 @@ End of functions from https://github.com/client9/shlib
 EOF
 
 PROJECT_NAME=apm
-OWNER=MetalBlockchain
+OWNER=ixAnkit
 REPO="apm"
 BINARY=apm
 FORMAT=tar.gz
