@@ -6,7 +6,7 @@ package constant
 const (
 	AppName                = "apm"
 	CoreAlias              = "MetalBlockchain/metal-plugins-core"
-	CoreURL                = "https://github.com/MetalBlockchain/metal-plugins-core.git"
+	CoreURL                = "https://github.com/ixAnkit/metal-plugins-core.git"
 	CoreBranch             = "master"
 	QualifiedNameDelimiter = ":"
 	AliasDelimiter         = "/"

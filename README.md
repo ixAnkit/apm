@@ -3,10 +3,10 @@
 **Note: This code is currently in Alpha. Proceed at your own risk.**
 
 `apm` is a command-line tool to manage virtual machines binaries for
-[metalgo](https://github.com/MetalBlockchain/metalgo).
+[metalgo](https://github.com/cryft-labs/cryftgo).
 
 `apm` allows users to build their own custom repositories to provide virtual machine and subnet definitions outside of
-the [metal-plugins-core](https://github.com/MetalBlockchain/metal-plugins-core) repository. `metal-plugins-core`
+the [metal-plugins-core](https://github.com/ixAnkit/metal-plugins-core) repository. `metal-plugins-core`
 is a community-sourced set of plugins and subnets that ships with the `apm`, but users have the option of adding their own using
 the `add-repository` command.
 
@@ -57,7 +57,7 @@ The resulting `apm` binary will be available in `./build/apm`.
 Starts tracking a plugin repository.
 
 ```shell
-apm add-repository --alias MetalBlockchain/core --url https://github.com/MetalBlockchain/metal-plugins-core.git --branch master
+apm add-repository --alias MetalBlockchain/core --url https://github.com/ixAnkit/metal-plugins-core.git --branch master
 ```
 
 #### Parameters:
@@ -165,7 +165,7 @@ apm remove-repository --alias organization/repository
 $ ./build/apm join-subnet --subnet spaces
 
 Installing virtual machines for subnet Ai42MkKqk8yjXFCpoHXw7rdTWSHiKEMqh5h8gbxwjgkCUfkrk.
-Downloading https://github.com/MetalBlockchain/spacesvm/archive/refs/tags/v0.0.3.tar.gz...
+Downloading https://github.com/ixAnkit/spacesvm/archive/refs/tags/v0.0.3.tar.gz...
 HTTP response 200 OK
 Calculating checksums...
 Saw expected checksum value of 1ac250f6c40472f22eaf0616fc8c886078a4eaa9b2b85fbb4fb7783a1db6af3f
@@ -177,7 +177,7 @@ Building spaces-cli in ./build/spaces-cli
 Moving binary sqja3uK17MJxfC7AN8nGadBw9JK5BcrsNwNynsqP5Gih8M5Bm into plugin directory...
 Cleaning up temporary files...
 Adding virtual machine sqja3uK17MJxfC7AN8nGadBw9JK5BcrsNwNynsqP5Gih8M5Bm to installation registry...
-Successfully installed MetalBlockchain/metal-plugins-core:spacesvm@v0.0.4 in /Users/joshua.kim/go/src/github.com/MetalBlockchain/metalgo/build/plugins/sqja3uK17MJxfC7AN8nGadBw9JK5BcrsNwNynsqP5Gih8M5Bm
+Successfully installed MetalBlockchain/metal-plugins-core:spacesvm@v0.0.4 in /Users/joshua.kim/go/src/github.com/cryft-labs/cryftgo/build/plugins/sqja3uK17MJxfC7AN8nGadBw9JK5BcrsNwNynsqP5Gih8M5Bm
 Updating virtual machines...
 Node at 127.0.0.1:9650/ext/admin was offline. Virtual machines will be available upon node startup.
 Whitelisting subnet Ai42MkKqk8yjXFCpoHXw7rdTWSHiKEMqh5h8gbxwjgkCUfkrk...
