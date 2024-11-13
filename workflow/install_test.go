@@ -8,16 +8,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/MetalBlockchain/metalgo/utils/perms"
-	"github.com/MetalBlockchain/metalgo/version"
+	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/cryft-labs/cryftgo/version"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/golang/mock/gomock"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/MetalBlockchain/apm/checksum"
-	"github.com/MetalBlockchain/apm/storage"
-	"github.com/MetalBlockchain/apm/types"
+	"github.com/ixAnkit/apm/checksum"
+	"github.com/ixAnkit/apm/storage"
+	"github.com/ixAnkit/apm/types"
 )
 
 func TestInstallExecute(t *testing.T) {

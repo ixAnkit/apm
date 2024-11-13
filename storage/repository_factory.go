@@ -4,8 +4,8 @@
 package storage
 
 import (
-	"github.com/MetalBlockchain/metalgo/database"
-	"github.com/MetalBlockchain/metalgo/database/prefixdb"
+	"github.com/cryft-labs/cryftgo/database"
+	"github.com/cryft-labs/cryftgo/database/prefixdb"
 )
 
 var _ RepositoryFactory = repositoryFactory{}

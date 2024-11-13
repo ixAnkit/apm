@@ -9,11 +9,11 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/cryft-labs/cryftgo/database"
 	"github.com/spf13/afero"
 
-	"github.com/MetalBlockchain/apm/storage"
-	"github.com/MetalBlockchain/apm/types"
+	"github.com/ixAnkit/apm/storage"
+	"github.com/ixAnkit/apm/types"
 )
 
 var _ Workflow = &Uninstall{}

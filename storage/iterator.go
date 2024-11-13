@@ -4,7 +4,7 @@
 package storage
 
 import (
-	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/cryft-labs/cryftgo/database"
 	"gopkg.in/yaml.v3"
 )
 

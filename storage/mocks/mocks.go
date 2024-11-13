@@ -3,7 +3,7 @@
 
 package mocks
 
-import "github.com/MetalBlockchain/metalgo/database"
+import "github.com/cryft-labs/cryftgo/database"
 
 var _ database.Iterator = &MockDatabaseIterator{}
 

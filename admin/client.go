@@ -6,7 +6,7 @@ package admin
 import (
 	"context"
 
-	adminapi "github.com/MetalBlockchain/metalgo/api/admin"
+	adminapi "github.com/cryft-labs/cryftgo/api/admin"
 )
 
 var _ Client = &client{}

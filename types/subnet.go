@@ -3,7 +3,7 @@
 
 package types
 
-// import "github.com/MetalBlockchain/metalgo/subnets"
+// import "github.com/cryft-labs/cryftgo/subnets"
 //
 var _ Definition = &Subnet{}
 

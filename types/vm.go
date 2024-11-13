@@ -3,7 +3,7 @@
 
 package types
 
-import "github.com/MetalBlockchain/metalgo/version"
+import "github.com/cryft-labs/cryftgo/version"
 
 var _ Definition = &VM{}
 

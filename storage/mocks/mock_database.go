@@ -10,7 +10,7 @@ package mocks
 import (
 	reflect "reflect"
 
-	"github.com/MetalBlockchain/metalgo/database"
+	"github.com/cryft-labs/cryftgo/database"
 	gomock "github.com/golang/mock/gomock"
 )
 
