@@ -1,4 +1,4 @@
-module apm
+module github.com/ixAnkit/apm
 
 go 1.18
 
