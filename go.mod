@@ -2,6 +2,8 @@ module apm
 
 go 1.18
 
+toolchain go1.22.9
+
 require (
 	github.com/cryft-labs/cryftgo v1.0.0-rc
 	github.com/cavaliergopher/grab/v3 v3.0.1
@@ -95,3 +97,5 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+
