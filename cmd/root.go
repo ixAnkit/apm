@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v3"
 
-	"github.com/cryft/apm/apm"
-	"github.com/cryft/apm/config"
-	"github.com/cryft/apm/constant"
+	"github.com/ixAnkit/apm/apm"
+	"github.com/ixAnkit/apm/config"
+	"github.com/ixAnkit/apm/constant"
 )
 
 var (
