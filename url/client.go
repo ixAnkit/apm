@@ -33,6 +33,8 @@ func (h client) Download(url string, path string) error {
 	}
 
 	fmt.Printf("Downloading %v...\n", req.URL())
+	fmt.Printf("Downloading2 %s}%s...\n", url,path)
+
 	resp := h.client.Do(req)
 	fmt.Printf("HTTP response %v\n", resp.HTTPResponse.Status)
 
