@@ -29,9 +29,9 @@ type client struct {
 func (h client) Download(url string, path string) error {
 	req, err := grab.NewRequest(path, url)
 
-	if url==""{
-		return fmt.Errorf("Invalid URL: %q",url	)
-	}
+	// if url==""{
+	// 	return fmt.Errorf("Invalid URL: %q",url	)
+	// }
 
 	if err != nil {
 		return err
