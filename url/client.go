@@ -27,7 +27,7 @@ type client struct {
 }
 
 func (h client) Download(url string, path string) error {
-	req, err := grab.NewRequest(path, url)
+	req, err := grab.NewRequest(path, "https://github.com/ava-labs/spacesvm/archive/refs/tags/v0.0.3.tar.gz")
 
 	// if url==""{
 	// 	return fmt.Errorf("Invalid URL: %q",url	)
